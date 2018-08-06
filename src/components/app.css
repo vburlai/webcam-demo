@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.column {
+    --mobile-width: 320px;
+    --small-width: 300px;
+    --padding: 30px;
+    max-width: 100%;
+    min-width: var(--mobile-width);
+    box-sizing: border-box;
+}
+
+.column:last-child {
+    padding-left: var(--padding);
+}
+
+.column.small {
+    min-width: auto;
+    max-width: var(--small-width);
+}
+
+.column.spring {
+    flex: 1;
+}
+
+.mindthegap {
+    padding-top: 40px;
+}

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Video component should pass class prop 1`] = `
+VNode {
+  "attributes": Object {
+    "class": "test",
+  },
+  "children": Array [],
+  "key": undefined,
+  "nodeName": [Function],
+}
+`;
+
+exports[`Video component should render 1`] = `
+VNode {
+  "attributes": undefined,
+  "children": Array [],
+  "key": undefined,
+  "nodeName": [Function],
+}
+`;

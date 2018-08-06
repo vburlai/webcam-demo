@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "noImplicitAny": true,
+      "module": "commonjs",
+      "jsx": "react",
+      "jsxFactory": "h"
+    }
+  }

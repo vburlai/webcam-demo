@@ -1,0 +1,34 @@
+{
+  "name": "webcam-demo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Playing with webcam, Preact, TypeScript and Webpack",
+  "main": "dst/index.html",
+  "scripts": {
+    "prebuild": "rimraf dst/",
+    "build": "webpack",
+    "postbuild": "rimraf dst/tmp.file.js",
+    "dev": "webpack-serve --host 0.0.0.0 --content dst/ --open",
+    "test": "jest"
+  },
+  "author": "Vitaly Burlai",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "23.3.1",
+    "css-loader": "1.0.0",
+    "file-loader": "1.1.11",
+    "jest": "23.4.2",
+    "rimraf": "2.6.2",
+    "style-loader": "0.21.0",
+    "ts-jest": "23.1.2",
+    "ts-loader": "4.4.2",
+    "typescript": "3.0.1",
+    "typings-for-css-modules-loader": "1.7.0",
+    "webpack": "4.16.4",
+    "webpack-cli": "3.1.0",
+    "webpack-serve": "2.0.2"
+  },
+  "dependencies": {
+    "preact": "8.2.9"
+  }
+}

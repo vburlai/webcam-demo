@@ -1,0 +1,24 @@
+.container, .min, .max {
+    --indicator-width: 40px;
+    display: inline-block;
+}
+
+.container {
+    padding: 5px 10px;
+    border: 1px solid #999;
+    border-radius: 0.5em;
+}
+
+.min, .max {    
+    width: var(--indicator-width);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.input {
+    margin: 0 10px;
+}
+
+.max {
+    text-align: right;
+}
